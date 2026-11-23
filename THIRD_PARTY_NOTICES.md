@@ -1,6 +1,6 @@
 # Third-Party Notices
 
-Proposal Listener includes the components below. Full license texts are in `LICENSES/`.
+PDFcast includes the components below. Full license texts are in `LICENSES/`.
 
 | Component | Version | Used For | License | Source |
 |---|---|---|---|---|

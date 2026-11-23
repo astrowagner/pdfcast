@@ -17,18 +17,18 @@ It should go on, like other audio (see [The Lock Screen, Other Apps, and AirPods
 Taking out your headphones, a call, or audio from another app pauses the reading, as with other audio. Press play to continue.
 
 **The natural voice keeps pausing ("Getting … of speech ready").**
-On a phone, the natural voice is made more slowly than you listen. When it falls behind, it collects enough speech to then play for a while without stopping, and tells you how long that takes. For listening without waits, use **Prepare ahead** first (Voice and speed › **Prepare the rest of this proposal**), or listen at a lower speed.
+On a phone, the natural voice is made more slowly than you listen. When it falls behind, it collects enough speech to then play for a while without stopping, and tells you how long that takes. For listening without waits, use **Prepare ahead** first (Voice and speed › **Prepare the rest of this document**), or listen at a lower speed.
 
 **"The natural voice is not downloaded on this device yet."**
 You chose the natural voice on another device, or restored a state from one, or the browser removed the voice's files. Play uses the device voice meanwhile. To use the natural voice here, choose **Voice and speed › Natural (on device) › Download and turn on** (about 104 MB, once).
 
 **The Voice and speed panel closed by itself and the page reloaded.**
-Safari reloads a page that used too much memory. The app reopens the proposal where you were, and the natural voice stays on: press play and it loads from this device. If this happened while preparing ahead, preparing continues when you press play. See [Memory, and When Safari Reloads the Page](iphone.md#memory-and-when-safari-reloads-the-page). If it keeps happening, send the diagnostic log.
+Safari reloads a page that used too much memory. The app reopens the document where you were, and the natural voice stays on: press play and it loads from this device. If this happened while preparing ahead, preparing continues when you press play. See [Memory, and When Safari Reloads the Page](iphone.md#memory-and-when-safari-reloads-the-page). If it keeps happening, send the diagnostic log.
 
 ## Reading
 
 **A table or figure is being read, or text I want is skipped.**
-Settings › **Reading aloud** controls what is skipped: citations, the reference list, figure and table text, captions, footnotes, and web addresses. Skipped text is dimmed; tap a sentence to see whether it is skipped. If the app misjudges a part of a PDF, please report it. Describe the layout, but never share a confidential proposal.
+Settings › **Reading aloud** controls what is skipped: citations, the reference list, figure and table text, captions, footnotes, and web addresses. Skipped text is dimmed; tap a sentence to see whether it is skipped. If the app misjudges a part of a PDF, please report it. Describe the layout, but never share a confidential document.
 
 **A word is mispronounced.**
 Add it to Settings › **Pronunciations**, one per line, written as `text = how to say it`, for example `NOMIC = no mick`.
@@ -58,16 +58,16 @@ Notes › **Export notes** › **Copy review text** copies plain text laid out i
 
 ## Saving and Devices
 
-**My proposals and notes are gone.**
-The browser removed the app's data. Safari, for example, does this after 7 days of Safari use without visiting the site, and storage cleanups can too. Use **Restore state** with your newest **Proposal Listener State** file (on iPhone, usually in Files › Downloads), or add an annotated proposal PDF you exported. To be safe, use **Save state** now and then.
+**My PDFs and notes are gone.**
+The browser removed the app's data. Safari, for example, does this after 7 days of Safari use without visiting the site, and storage cleanups can too. Use **Restore state** with your newest **PDFcast State** file, or a **Proposal Listener State** file from before the app's name changed (on iPhone, usually in Files › Downloads), or add an annotated PDF you exported. To be safe, use **Save state** now and then.
 
 **How do I continue on another device?**
-**Save state** on the first device, move the file (for example with AirDrop or Files), and **Restore state** on the other device. Or, for one proposal, export the **Annotated proposal (PDF)** and add it on the other device.
+**Save state** on the first device, move the file (for example with AirDrop or Files), and **Restore state** on the other device. Or, for one PDF, export the **Annotated PDF** and add it on the other device.
 
 **Restoring merged my notes. Did I lose anything?**
 No. Restoring keeps notes you made since the file was saved and adds the ones in the file; for a highlight in both, the newer one wins.
 
 ## Reporting a Problem
 
-1. In the app, open **Settings › Copy diagnostic log**. The log has events, timings, and error messages, but no proposal text or file names.
-2. Open an issue in [this repository](https://github.com/astrowagner/pdfreviewer/issues), describe what happened, and paste the log. Issues are public: never paste proposal text or attach a proposal.
+1. In the app, open **Settings › Copy diagnostic log**. The log has events, timings, and error messages, but no document text or file names.
+2. Open an issue in [this repository](https://github.com/astrowagner/pdfreviewer/issues), describe what happened, and paste the log. Issues are public: never paste text from a confidential document or attach one.

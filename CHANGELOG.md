@@ -2,6 +2,13 @@
 
 The version of the app you have (its build date and code version) is shown at Settings › **Diagnostics**.
 
+## 2026-11-23
+
+- **New name: PDFcast.** The app is now for papers, proposals, or any PDF. Files saved under the old name, Proposal Listener (state files and annotated PDFs), still work, and everything stored in your browser stays.
+- **Journal paper (referee report):** a review type with a summary of the paper, a general assessment, major and minor comments, questions for the authors, a recommendation (Accept, Minor revision, Major revision, Reject), and confidential comments to the editor. Papers are recognized from an arXiv identifier, a journal's draft or typesetting line, received and accepted dates, a journal header, or keywords with a DOI.
+- **Notes only:** no review form; highlights and notes are exported as they are. A PDF that gives no clue is Notes only until you choose a review type.
+- **Reading papers:** running heads that alternate between odd and even pages are left out, and so is a journal's typesetting line; a section heading on two lines stays one heading; a paragraph that goes on below a figure on the next page is read as one; tick labels between two plot panels are skipped. PDFs you added before are read again when you open them.
+
 ## 2026-11-12
 
 - **Listen like other audio:** listening goes on with the screen locked or in another app, also with a device voice, and the app shows on the lock screen and in Control Center with the proposal's title, the page, and the time left. Play, pause, next and previous sentence, and dragging the progress bar work from there and from AirPods. Taking out your AirPods, a call, or audio from another app pauses the reading.

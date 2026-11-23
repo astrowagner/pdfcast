@@ -1,36 +1,59 @@
 # Review Types
 
-Each proposal has a review type: **NSF**, **NASA**, **JWST**, **General observing**, or **General funding**. The type sets:
+Each PDF has a review type: **Notes only**, **Journal paper**, **NSF**, **NASA**, **JWST**, **General observing**, or **General funding**. The type sets:
 
 - the **criteria** your strengths and weaknesses are filed under,
 - the **rating** (a scale to tap, three grades, or text),
 - the **fields** in your review (for example NSF's summary statement), and
-- the **layout** of your exports: the notes report PDF and **Copy review text** follow the order of the program's form, so you can paste section by section.
+- the **layout** of your exports: the notes report PDF and **Copy review text** follow the order of the form, so you can paste section by section.
 
-Your questions and notes are for you. They come last in the exports, marked "not part of the review".
+Your questions and notes are for you. They come last in the exports, marked "not part of the review". In a referee report, questions are part of the report; with Notes only, everything is listed together.
 
 <img src="images/review-nasa.png" width="260" alt="Review type, rating, and fields for a NASA proposal">
 <img src="images/highlight.png" width="260" alt="Choosing the criterion of a highlight">
 
 ## Choosing the Type
 
-The type is **guessed from the proposal** when you open it, from the text of its first pages (running headers included):
+The type is **guessed from the PDF** when you open it, from the text of its first pages (running headers included):
 
 | The first pages contain | Guessed type |
 |---|---|
 | An NSPIRES or ROSES identifier (such as NNH25ZDA001N) | NASA |
 | Both "Intellectual Merit" and "Broader Impacts" | NSF |
+| An arXiv identifier, a journal's draft or typesetting line, received and accepted dates, a journal header, or keywords with a DOI | Journal paper |
 | "JWST" with a cycle number, or JWST mentioned throughout | JWST |
 | An observing-time request, a time allocation committee, or a telescope with a cycle, period, or semester | General observing |
-| None of these | The type you chose last (General funding at first) |
+| None of these | The type you chose last (Notes only at first) |
 
-When the type was guessed, **Notes** says so. **Tap another type to change it**; your choice is kept for that proposal and becomes the default for proposals that give no clue. Changing the type never changes your highlights or notes, only how they are grouped and labeled.
+Journal papers are recognized before JWST, because a paper on JWST data names the telescope and its cycle too. When the type was guessed, **Notes** says so. **Tap another type to change it**; your choice is kept for that PDF and becomes the default for PDFs that give no clue. Changing the type never changes your highlights or notes, only how they are grouped and labeled.
 
 ## Criteria: How Highlights Are Filed
 
 When you highlight a strength or weakness, the app files it under a criterion **from the section it is in**. For example, a weakness inside "Broader Impacts" goes under Broader Impacts. A sentence under "Travel" inside "Budget Justification" goes under the budget criterion, because its parent section counts. A neighboring section does not count. Budget form pages count as budget too. Anything else goes under the type's first criterion.
 
 To change it, open the highlight (tap it, then **Edit this … highlight**) and tap another criterion. Notes shows each highlight's criterion, and the annotated PDF's comments name it.
+
+## Notes Only
+
+For any PDF you read without a review form.
+
+- **Criteria and rating:** none.
+- **Field:** a summary, if you want one.
+- **Export:** your summary, then every highlight listed by kind: strengths, weaknesses, questions, and notes. The notes report is titled "Notes" and each page is marked "Private notes".
+
+## Journal Paper (Referee Report)
+
+For refereeing a journal article.
+
+- **Comments:** your weaknesses are your comments to the authors. Turn on **Major comment** in a weakness for an issue that must be addressed before the paper can be accepted; the others are minor comments. The annotated PDF's comments say "Major comment" or "Minor comment".
+- **Questions** are part of the report, under Questions for the authors. Your notes stay yours.
+- **Recommendation:** Accept, Minor revision, Major revision, or Reject. Tap one, or type your own.
+- **Fields:** Summary of the paper; General assessment; **Confidential comments to the editor** (optional, not sent to the authors).
+- **Export order:** recommendation; summary of the paper; general assessment; strengths; major comments; minor comments; questions for the authors; confidential comments to the editor, marked as not sent to the authors; then your notes.
+
+Journals differ in what they ask of referees, and some use other recommendations; follow the journal's instructions.
+
+<img src="images/review-paper.png" width="260" alt="The review for a journal paper: recommendation, summary, and general assessment">
 
 ## NSF
 
