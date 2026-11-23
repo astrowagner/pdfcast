@@ -70,4 +70,4 @@ No. Restoring keeps notes you made since the file was saved and adds the ones in
 ## Reporting a Problem
 
 1. In the app, open **Settings › Copy diagnostic log**. The log has events, timings, and error messages, but no document text or file names.
-2. Open an issue in [this repository](https://github.com/astrowagner/pdfreviewer/issues), describe what happened, and paste the log. Issues are public: never paste text from a confidential document or attach one.
+2. Open an issue in [this repository](https://github.com/astrowagner/pdfcast/issues), describe what happened, and paste the log. Issues are public: never paste text from a confidential document or attach one.

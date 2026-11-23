@@ -2023,7 +2023,7 @@ const debounce = (fn, ms) => { let t; return (...a) => { clearTimeout(t); t = se
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 const reduceMotion = () => !!(window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches);
 class UserError extends Error {}
-const BUILD = "2026-11-23 08:46 UTC, e7b5b02";
+const BUILD = "2026-11-23 22:41 UTC, d99732d";
 // Diagnostic log kept on this device (localStorage) so problems on a phone can be reported.
 // It holds events, counts, sizes, and timings only: never proposal text or file names.
 const Diag = {
@@ -5031,7 +5031,7 @@ function jumpTo(i, play) {
 
 // ── Settings, more, about ──────────────────────────────────────────────────
 // The guide for colleagues: README and docs/ in the public repository that also hosts the website.
-const GUIDE_URL = 'https://github.com/astrowagner/pdfreviewer';
+const GUIDE_URL = 'https://github.com/astrowagner/pdfcast';
 function toggleRow(key, label, small) {
   return `<label class="toggle"><span>${label}${small ? `<small>${small}</small>` : ''}</span><input type="checkbox" data-set="${key}" ${App.S[key] ? 'checked' : ''}></label>`;
 }

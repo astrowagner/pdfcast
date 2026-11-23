@@ -2,7 +2,7 @@
 
 PDFcast reads PDFs aloud, with the text following along: papers, proposals, reports, or anything with selectable text. You can highlight and annotate as you listen, then export your notes, or a review laid out for its purpose: a referee report for a journal paper, or the forms of NSF, NASA, JWST, and other proposal reviews. This guide covers everything in the app. For iPhone-specific advice, see [iPhone and iPad](iphone.md); for what is stored where, see [Privacy and Data](privacy.md).
 
-Open the app: https://astrowagner.github.io/pdfreviewer/
+Open the app: https://astrowagner.github.io/pdfcast/
 
 - [Getting Started](#getting-started)
 - [Listening](#listening)

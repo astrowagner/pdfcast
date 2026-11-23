@@ -4,7 +4,7 @@ The version of the app you have (its build date and code version) is shown at Se
 
 ## 2026-11-23
 
-- **New name: PDFcast.** The app is now for papers, proposals, or any PDF. Files saved under the old name, Proposal Listener (state files and annotated PDFs), still work, and everything stored in your browser stays.
+- **New name and address: PDFcast**, at https://astrowagner.github.io/pdfcast/; the old address (…/pdfreviewer/) no longer works, so update your bookmark. Your PDFs and notes stay: browsers keep them for astrowagner.github.io, whatever the path. The app is now for papers, proposals, or any PDF. Files saved under the old name, Proposal Listener (state files and annotated PDFs), still work, and everything stored in your browser stays.
 - **Journal paper (referee report):** a review type with a summary of the paper, a general assessment, major and minor comments, questions for the authors, a recommendation (Accept, Minor revision, Major revision, Reject), and confidential comments to the editor. Papers are recognized from an arXiv identifier, a journal's draft or typesetting line, received and accepted dates, a journal header, or keywords with a DOI.
 - **Notes only:** no review form; highlights and notes are exported as they are. A PDF that gives no clue is Notes only until you choose a review type.
 - **Reading papers:** running heads that alternate between odd and even pages are left out, and so is a journal's typesetting line; a section heading on two lines stays one heading; a paragraph that goes on below a figure on the next page is read as one; tick labels between two plot panels are skipped. PDFs you added before are read again when you open them.

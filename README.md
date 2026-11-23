@@ -35,7 +35,7 @@ Details: [Privacy and Data](docs/privacy.md). Review programs and journals have 
 ## Quick Start
 
 1. Copy the PDFs to your device. On iPhone, the Files app works well.
-2. Open https://astrowagner.github.io/pdfreviewer/. On iPhone, use Safari and bookmark the page.
+2. Open https://astrowagner.github.io/pdfcast/. On iPhone, use Safari and bookmark the page.
 3. Tap **Add PDFs** and choose one or more.
 4. Press play. Press **Mark** whenever you hear something worth noting, or tap a sentence to highlight it.
 5. Open **Notes** (the speech-bubble icon) to check the review type, add your summary and rating or recommendation, and **Export notes**.

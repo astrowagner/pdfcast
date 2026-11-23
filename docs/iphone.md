@@ -4,7 +4,7 @@ PDFcast is made for Safari on iPhone and iPad. A few things work differently the
 
 ## Open It in Safari, From a Bookmark
 
-Use the app in Safari and bookmark https://astrowagner.github.io/pdfreviewer/. Avoid adding it to the Home Screen: web apps added to the Home Screen often stop audio when the screen locks, and they keep their own separate storage.
+Use the app in Safari and bookmark https://astrowagner.github.io/pdfcast/. Avoid adding it to the Home Screen: web apps added to the Home Screen often stop audio when the screen locks, and they keep their own separate storage.
 
 To add PDFs, save them to the Files app (for example from Mail, or from your browser's downloads), then tap **Add PDFs**.
 

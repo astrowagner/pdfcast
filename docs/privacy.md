@@ -50,6 +50,6 @@ Browsers can remove a site's stored data. Safari [deletes a site's script-writab
 
 ## Check It Yourself
 
-- **The policy:** view the page source of https://astrowagner.github.io/pdfreviewer/ and find the `Content-Security-Policy` meta tag near the top.
+- **The policy:** view the page source of https://astrowagner.github.io/pdfcast/ and find the `Content-Security-Policy` meta tag near the top.
 - **The traffic:** open your browser's developer tools, then the Network panel, and use the app. Every request goes to the app's own site.
 - **The code:** `index.html` in this repository is the whole app, with its code readable in the file.
