@@ -2,7 +2,7 @@
 
 Listen to papers, proposals, or any PDF like a podcast. Highlight as you listen, and export your notes, or a review laid out for its purpose: a referee report for a journal paper, or the NSF, NASA, or JWST review forms. Everything runs on your device: nothing is uploaded.
 
-**Open the app: https://astrowagner.github.io/pdfreviewer/**
+**Open the app: https://astrowagner.github.io/pdfcast/**
 
 It is made for Safari on iPhone and iPad and also runs in current desktop browsers. There is nothing to install and no account. PDFcast was called Proposal Listener until November 2026; files saved under that name still work.
 
